@@ -1,0 +1,146 @@
+.img1 {
+    display: none;
+    width: 250px;
+    margin-left: 1100px;
+}
+
+.main {
+    display: block;
+    width: 250px;
+    margin-left: 600px;
+}
+
+.img2 {
+    display: none;
+    width: 250px;
+    margin-left: 1100px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #011F3F;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 300%;
+    margin: 5%;
+    color: #FEF2BF;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.last {
+    background-color: #fef2bf;
+    color: #011f3f;
+}
+
+p {
+    padding-top: 1.5%;
+    padding-bottom: 4%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fef2bf;
+    padding-top: 3%;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.facebook-f:hover {
+    color: #4267B2;
+}
+
+.inst:hover {
+    color: #F77737;
+}
+
+.gmail:hover {
+    color: #DB4437;
+}
+
+.dnd-bt {
+    margin: 10px;
+}
+
+.social-mid {
+    color: black;
+}
+
+.brands-cont {
+    padding: 2% 1.09%;
+}
+
+.card-pay {
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+
+@media (max-width: 950px) {
+    .container {
+        display: block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .btn {
+        margin: 25px;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border: 10% solid black;
+        border-radius: 20%;
+    }
+    #level-title {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 200%;
+        margin: 5%;
+        color: #FEF2BF;
+    }
+}
